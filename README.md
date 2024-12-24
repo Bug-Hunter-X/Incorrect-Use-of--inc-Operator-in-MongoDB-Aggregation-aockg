@@ -1,0 +1,2 @@
+# Incorrect Use of $inc Operator in MongoDB Aggregation
+This repository demonstrates an incorrect usage of the `$inc` operator within a MongoDB aggregation pipeline and provides a corrected solution.  The original code attempts to increment a field within the same document using `$inc` in the `$project` stage, which is not the intended behavior. The corrected solution shows how to properly achieve the desired incremented count.
